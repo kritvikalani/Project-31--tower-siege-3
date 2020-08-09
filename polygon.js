@@ -17,7 +17,7 @@ class Polygon{
     display() {
         var pos= this.body.position
         ellipseMode(RADIUS)
-        fill(100)
+        fill(220)
         ellipse(/*this.image,*/pos.x,pos.y,this.body.radius,this.body.radius)
     }
 }
